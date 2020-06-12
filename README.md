@@ -8,5 +8,5 @@ nginx demo of wwc pune
 3. Build Docker iamge `docker image build -t <tag> .` from within the root directory of the repo 
 4. Push image to container registry
 5. Run container/Pod using the created image
-  $ docker run -dit -p <port>:80 --name <container-name> <tag>
+  `$ docker run -dit -p <port>:80 --name <container-name> <tag>`
 6. Access the port on http://localhost:<port>
